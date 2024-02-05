@@ -1,104 +1,70 @@
+html
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>António Palma - Profile</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        header {
-            background-color: #007bff;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-        }
-
-        section {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h1 {
-            color: #007bff;
-        }
-
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        li {
-            margin-bottom: 10px;
-        }
-
-        /* Responsive Design */
-
-        @media (max-width: 600px) {
-            section {
-                padding: 10px;
-            }
-        }
-
-        @media (max-width: 768px) {
-            header {
-                padding: 15px;
-            }
-        }
-
-        @media (max-width: 992px) {
-            section {
-                max-width: 90%;
-            }
-        }
-
-        @media (max-width: 1200px) {
-            section {
-                max-width: 80%;
-            }
-        }
-
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Antonio Page</title>
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradientBG 15s ease infinite;
+    }
+    @keyframes gradientBG {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+    .content {
+        position: relative;
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        color: white;
+    }
+    button {
+        padding: 10px 20px;
+        border: none;
+        background-color: #fff;
+        color: #000;
+        cursor: pointer;
+        transition: transform 0.2s;
+    }
+    button:hover {
+        transform: scale(1.1);
+    }
+    button:focus {
+        outline: none;
+    }
+</style>
 </head>
-
 <body>
 
-    <header>
-        <h1>António Palma</h1>
-        <p>Final Year Computer Science Student</p>
-    </header>
+<div class="background"></div>
+<div class="content">
+    <button id="magicButton">Magic Button</button>
+</div>
 
-    <section>
-        <h2>About Me</h2>
-        <p>
-            I am a final year Computer Science student with a passion for coding and problem-solving. My expertise
-            includes Python, Java, SQL, HTML, CSS, and JavaScript.
-        </p>
-
-        <h2>Skills</h2>
-        <ul>
-            <li>Python</li>
-            <li>Java</li>
-            <li>SQL</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-        </ul>
-    </section>
-
-    <!-- Add more sections as needed, such as projects, education, etc. -->
+<script>
+    document.getElementById('magicButton').addEventListener('click', function() {
+        alert('Magic Happens!');
+    });
+</script>
 
 </body>
-
 </html>
