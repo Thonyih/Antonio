@@ -1,70 +1,43 @@
-html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Antonio Page</title>
-<style>
-    body, html {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-    }
-    .background {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-        background-size: 400% 400%;
-        animation: gradientBG 15s ease infinite;
-    }
-    @keyframes gradientBG {
-        0% { background-position: 0% 50%; }
-        50% { background-position: 100% 50%; }
-        100% { background-position: 0% 50%; }
-    }
-    .content {
-        position: relative;
-        z-index: 10;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        color: white;
-    }
-    button {
-        padding: 10px 20px;
-        border: none;
-        background-color: #fff;
-        color: #000;
-        cursor: pointer;
-        transition: transform 0.2s;
-    }
-    button:hover {
-        transform: scale(1.1);
-    }
-    button:focus {
-        outline: none;
-    }
-</style>
+
+<title> António Palma </title>
+
+
+   <link rel="stylesheet" href="styles/styles.css">
+
+
 </head>
+
 <body>
 
 <div class="background"></div>
+
 <div class="content">
-    <button id="magicButton">Magic Button</button>
+      <a id=lin href="https://www.linkedin.com/in/antoniopalma99/" target="_blank">
+         LINK
+      </a>
 </div>
 
-<script>
-    document.getElementById('magicButton').addEventListener('click', function() {
-        alert('Magic Happens!');
-    });
-</script>
+<p></p>
+
+<button class="but1">
+   something
+</button>
+
+<button class="but2">
+   2 something
+</button>
+
+<button class="but3">
+   3 something
+</button>
+
+<script type="text/javascript" src="scripts/scripts.js"> </script>
 
 </body>
 </html>
