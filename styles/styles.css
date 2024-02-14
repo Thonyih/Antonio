@@ -10,33 +10,40 @@
     border-radius: 2px;
     cursor: pointer;
     margin-right: 10px;
-    transition: 0.3s
+    transition: 0.3s;    
 }
 .but1:hover {
     background-color: rgb(30, 100, 240);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
 }
 .but1:active {
     background-color: rgb(30, 50, 230);
 }
+
+
 
 .but2 {
     background-color: white;
     color:black;
     border-color: grey;
     border-width: 2px;
-    height: 36px;
-    width: 105px;
     border-radius: 4px;
     cursor: pointer;
     transition: 0.3s, color 0.3s;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+    padding: 10px;
 }
 .but2:hover {
     background-color: #737070;
     color: white;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
 }
 .but2:active {
     opacity: 0.5;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
 }
+
+
 
 .but3 {
     font-weight: bold;
@@ -46,25 +53,71 @@
     border: none;
     height: 36px;
     width: 105px;
-    border-radius: 18px;
+    border-radius: 10px;
     cursor: pointer;
     margin: 10px;
+    transition: 0.3s;
+    box-shadow: 4px 4px 0 black;
 }
 .but3:hover {
     opacity: 0.8;
+    box-shadow: 5px 5px 0 black;
 }
 .but3:active {
     opacity: 0.90;
 }
 
+.Pdiv {
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.title {
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
 
 
+.title2 {
+    font-family: arial;
+    text-align: center;
+    margin: 10px;
+}
+
+.title {
+    font-family: Arial;
+}
+
+.but4 {
+    background-color: brown; 
+    font-size: 30px; 
+    font-weight: 900;
+    padding: 10px; 
+    border-radius: 5px;
+    font-family: arial;
+    transition: 0.5s;
+}
+.but4:hover {
+    cursor: pointer;
+}
 
 
-
-
-
-
+.but5 {
+    background-color: burlywood; 
+    font-size: 30px; 
+    font-weight: 900;
+    padding: 10px; 
+    border-radius: 5px;
+    font-family: arial;
+    transition: 0.5s;
+}
+.but5 {
+    cursor: pointer;
+}
 
 
 
