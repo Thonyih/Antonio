@@ -1,0 +1,63 @@
+
+
+
+.animation1-content {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    background-color: black;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.animation1-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.animation1-container .ring {
+
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid transparent;
+    border-top: 4px solid #edff00;
+    animation: animate 2.5s linear infinite
+
+}
+
+@keyframes animate {
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+
+.animation1-container .ring::before {
+
+    content: '';
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    background: #faffbd;
+
+    box-shadow: 0 0 0 5px #edff0033, 0 0 0 10px #edff0022, 0 0 0 15px #edff0015, 0 0 25px #edff00, 0 0 50px #faffbd;
+
+}
+
+

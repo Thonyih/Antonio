@@ -1,5 +1,9 @@
 
 
+content {
+    font-size: large;
+}
+
 
 .but1 {
     background-color:dodgerblue;
@@ -68,6 +72,7 @@
 }
 
 .Pdiv {
+    height: 40vh;
     padding: 10px;
     margin: 10px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
@@ -76,12 +81,10 @@
 
 .title {
     font-family: 'Roboto', sans-serif;
-    
     font-size: 30px;
     font-weight: bold;
     text-align: center;
 }
-
 
 .title2 {
     font-family: arial;
@@ -89,22 +92,6 @@
     margin: 10px;
 }
 
-.title {
-    font-family: Arial;
-}
-
-.but4 {
-    background-color: brown; 
-    font-size: 30px; 
-    font-weight: 900;
-    padding: 10px; 
-    border-radius: 5px;
-    font-family: arial;
-    transition: 0.5s;
-}
-.but4:hover {
-    cursor: pointer;
-}
 
 
 .but5 {
@@ -116,8 +103,10 @@
     font-family: arial;
     transition: 0.5s;
 }
-.but5 {
+.but5:hover {
+    box-shadow: 4px 4px 0 black;
     cursor: pointer;
+    transform: scale(1.05);
 }
 
 
