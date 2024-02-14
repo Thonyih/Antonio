@@ -1,0 +1,58 @@
+
+
+
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: lightblue;
+}
+
+.navDiv {
+    display: grid;
+    justify-content: center;
+    margin: 15px;
+    background-color: lightcoral;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+.backBut {
+}
+
+.grid-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: lightgreen;
+    margin: 0px;
+}
+
+.box1, .box2 {
+    background-color: lightcoral;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+}
+
+
+
+
+.flex-content {
+    background-color: lightblue;
+    display: flex;
+    height: 100vh;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.flex-box {
+    width: 150px;
+    height: 150px;
+    background-color: lightpink;
+    margin: 10px;
+    text-align: center;
+}

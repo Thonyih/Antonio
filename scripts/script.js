@@ -3,11 +3,11 @@
 
 
 function pageChange() {
-    window.location.href = 'templates/myProfile.html';
+    window.location.href = 'myProfile.html';
 }
 
 function goToMainPage() {
-    window.location.href = '../../'; // Adjust the path as needed
+    window.location.href = 'index.html'; // Adjust the path as needed
   }
 
 
