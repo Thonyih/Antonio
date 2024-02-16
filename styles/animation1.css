@@ -204,23 +204,6 @@
     }
 }
 
-@keyframes anim-pan {
-    0% {
-        transform: translate3d(0,0,0);
-    }
-    50% {
-        transform: translate3d(-50%, -45%, 0);
-    }
-    75% {
-        transform: translate3d(45%, 35%, 0);
-    }
-    85% {
-        transform: translate3d(-60%, 25%, 0);
-    }
-    100% {
-        transform: translate3d(0,0,0);
-    }
-}
 
 .ring {
     aspect-ratio: 1/1;
