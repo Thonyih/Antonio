@@ -19,8 +19,6 @@ nav {
     
 }
 
-.backBut {
-}
 
 .grid-content {
     display: grid;
@@ -38,16 +36,16 @@ nav {
 }
 
 
-
-
+ /* THIS IS THE FLEX CONTENT HERE */
 .flex-content {
-    background-color: lightblue;
     display: flex;
+    background-color: lightblue;
     height: 100vh;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-content: flex-start;
 }
+
 
 .flex-box {
     width: 150px;
