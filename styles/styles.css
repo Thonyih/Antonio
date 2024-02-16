@@ -87,7 +87,7 @@ content {
     margin: 10px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
     border-radius: 10px;
-    animation: fromTop 1s linear 
+    animation: fromTop 0.7s ease; 
 }
 
 .title {
